@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="64.592592">
+<testcase classname="Edit Already Created Document with Document type as Simple Document with Input type are Title , Summary &amp; Description and verify changes" name="Edit Document Test Scenario" time="64.592592">
+<system-out><![CDATA[Given user is already on Login Page.........................................passed
+When title of login page is "Bloomreach Experience 14"......................passed
+Then user enters username and password......................................passed
+Then user clicks on login button............................................passed
+Then user clicks on To the Content from Navigation area of Hippo CMS........passed
+Then user clicks on folder name as Hippo Go.................................passed
+Then user clicks on Document name in Document Viewer Script as "My New Document".passed
+When user clicks on Edit Button.............................................passed
+Then user edit Title in Document Viewer area as "My Title Updated"..........passed
+Then user edit Summary in Document Viewer area as "This website is a demo website Updated Version".passed
+Then user edit Description in Document Viewer area as "Editors love Hippo Updated".passed
+When user clicks on Save and Done Button....................................passed
+Then user should validate edited Title is Displayed in Core Document Screen as "My Title Updated".passed
+Then user should validate edited Summary is Displayed in Core Document Screen as "This website is a demo website Updated Version".passed
+Then user should validate edited Description is Displayed in Core Document Screen as "Editors love Hippo Updated".passed
+Then Logout from Application................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
